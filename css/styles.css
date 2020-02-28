@@ -26,6 +26,7 @@ main {
   background-color: whitesmoke
   padding: 30px;
   margin-bottom: 30px;
+  float: middle;
   
 }
 
@@ -150,7 +151,20 @@ main {
   width: 200px;
   margin: 0 20px 10px 0;
   border-radius: 5px;
+  filter: grayscale(100%);
 }
+#about-image:hover {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  margin: 0 20px 10px 0;
+  border-radius: 5px;
+  filter: none;
+  transition: 2s;
+}
+
 /* END ABOUT-ME PAGE */
 
 
@@ -177,7 +191,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: darkslategrey;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -187,7 +201,8 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: gray;
+  color: #000;
 }
 
 /* Add a background color and some padding around the form */
