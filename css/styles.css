@@ -2,11 +2,16 @@
 body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
-  /* Visual */
-  background-image: url("../imgs/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  margin: 0;
+    /* Visual */
+    background-image: url("../imgs/background.jpg");
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: cover;
+    filter: greyscale(100%);
+    position: relative;
+    height: 100%;
+    margin: 0;
 }
 
 html {
